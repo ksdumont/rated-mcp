@@ -99,7 +99,7 @@ Never put a real key in `.env`, `.mcp.json`, `~/.claude.json`, or any committed 
 ## 3. Install
 
 ```bash
-git clone <REPO-URL> ~/rated-mcp
+git clone https://github.com/ksdumont/rated-mcp.git ~/rated-mcp
 ```
 ```bash
 cd ~/rated-mcp && uv sync
