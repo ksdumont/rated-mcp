@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "rated": {
+      "type": "stdio",
+      "command": "uv",
+      "args": ["run", "--directory", ".", "rated-mcp"],
+      "env": {
+        "RATED_API_KEY": "${RATED_API_KEY:-}",
+        "RATED_ENABLE_WRITES": "${RATED_ENABLE_WRITES:-false}"
+      }
+    }
+  }
+}

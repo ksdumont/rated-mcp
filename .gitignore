@@ -1,0 +1,19 @@
+# Secrets and local config: never commit
+.env
+.env.*
+!.env.example
+.mcp.local.json
+.claude/settings.local.json
+*.local.json
+
+# Python / uv
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+dist/
+build/
+*.egg-info/
+
+# OS
+.DS_Store
